@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Loopdesk</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wall"></div>
+<div id="menubar"></div>
+<div id="desktop"></div>
+<div id="windows"></div>
+<div id="vbox" hidden>
+  <div class="vhead"><span>Vídeo</span></div>
+  <div id="vwrap"><div id="ytp"></div><iframe id="spf" hidden allow="autoplay; encrypted-media; clipboard-write" loading="lazy"></iframe></div>
+</div>
+<div id="mini"></div>
+<div id="dock"></div>
+<div id="menu" hidden></div>
+<input type="file" id="filepick" accept="audio/*" multiple hidden>
+<input type="file" id="dirpick" webkitdirectory multiple hidden>
+<input type="file" id="wallpick" accept="image/*,video/*" hidden>
+<script src="app.js"></script>
+</body>
+</html>
